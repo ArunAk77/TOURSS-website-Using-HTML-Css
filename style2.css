@@ -1,0 +1,208 @@
+@media(min-width:378px) and (max-width:2000px){
+.col1{
+    background-color: aqua;
+   height: 800px;
+    background-size: cover;background-image: url(https://images.pexels.com/photos/2611487/pexels-photo-2611487.jpeg?auto=compress&cs=tinysrgb&w=600);
+    border-radius: 100px;
+    border: 3px solid black;
+}
+#btn{
+    padding: 10px;
+    border-radius: 10x;
+    background-color: lightblue;
+}
+#wel {
+    margin-bottom: 10px;
+font-size: 40px;
+color: #fff;
+text-align: center;
+-webkit-animation: glow 1s ease-in-out infinite alternate;
+-moz-animation: glow 1s ease-in-out infinite alternate;
+animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes wel {
+from {
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+}
+to {
+text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+}
+}
+#para{
+text-align: center;
+font-style: oblique;
+font-weight: bolder;
+font-size: larger;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#aligns{
+margin: 100px;
+margin-bottom: 20px;
+}
+#icons{
+
+display: flex;
+margin-left: 32px;
+padding: 15px;
+}
+#google{
+margin: 20px;
+border: 1px solid rgb(255, 255, 255);
+border-radius: 10px;
+}
+#fbook{
+margin: 20px;
+border: 1px solid rgb(255, 255, 255);
+border-radius: 10px;
+}
+#apple{
+margin: 20px;
+border: 1px solid rgb(255, 255, 255);
+border-radius: 10px;
+}
+#log{
+text-align: center;
+margin-bottom: 40px;
+}
+input{
+margin-left: 45px;
+border-radius: 10px;
+box-shadow: -10px 10px 10px black;
+padding-right: 60px;
+padding-left: 20px;
+}
+#btn{
+margin-left: 165px;
+align-items: center;
+color: white;
+background-color: #2196F3;
+box-shadow: -10px 10px 10px  black;
+border-radius: 10px;
+cursor:pointer;
+}
+#btn:hover{
+background: #0b7dda;
+}
+.col2{
+background-color: #ff4da6;
+ background-size: cover; 
+/* background-repeat: no-repeat;
+background-attachment: fixed;  */
+background-image: url(https://images.pexels.com/photos/3224533/pexels-photo-3224533.jpeg?cs=srgb&dl=pexels-bhavitya-3224533.jpg&fm=jpg);
+border-radius: 100px;
+border: 3px solid black;
+}
+#wel{
+text-align: center;
+}
+#for{
+margin-left:120px;
+}
+#or{
+    text-align: center;
+    color: antiquewhite;
+    font-style: oblique;
+    font-weight: bolder;
+/* margin-left: 65px; */
+}
+#btmm{
+text-align: center;
+color: white;
+}
+strong{
+font-weight: bold;
+text-transform: capitalize;
+}
+.container2{
+    margin: 50px;
+}
+#list{
+    letter-spacing: 2px;
+}
+.container3{
+    columns: 2;
+    background-color: aqua;
+    display: flex;
+    height: 500px;
+    width: 90%;
+    padding: 50px;
+    justify-content: center;
+    /* padding-right: 50px;*/
+    margin-left: 70px; 
+    background-image:url(https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid black;
+    border-radius: 40px;
+    box-shadow: -5px 5px  10px black;
+}
+.colu1,.colu2,.colu3,.colu4{
+    width: 270px;
+    height:330px;
+    background-color: #e60073;
+    border-radius: 30px;
+    border: 1px solid black;
+    margin-top: 35px;
+    box-shadow: -3px 3px 6px rgb(0, 0, 0);
+    background-image: url(https://images.pexels.com/photos/1212693/pexels-photo-1212693.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    transition: 2s;
+    transition-duration: 0.4s;
+    transition-delay:0.3s ;
+}
+#imm{
+    border-radius: 15px;
+    /* border: 2px solid white; */
+    transition: width 2s;
+    animation: both;
+    padding: 8px;
+    border: 2px solid rgb(255, 255, 255);
+}
+#imm:hover{
+    /* padding: 10px; */
+    width: 300px;
+    height: 300px;
+    color: aliceblue;
+}
+#h5{
+    color: white;
+    font-family: fantasy;
+    font-style: oblique;
+}
+#h6{
+    color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bolder;
+}
+#butt{
+    border-radius: 8px;
+    color: black;
+    background-color: rgb(211, 145, 46);
+    box-shadow: -3px 3px 6px black;
+}
+ #butt:hover{
+   background-color:  #2196F3;
+    padding: 10px;
+ }
+ #quote{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-stretch: narrower;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: x-large;
+ }
+ #edit{
+    border-radius: 100px;
+    border: 3px solid rgb(255, 255, 255);
+    box-shadow: -4px 6px 12px black;
+    transition: width 2s;
+    transition-duration: 0.8s;
+    transition-delay: 0.3s;
+ }
+}
